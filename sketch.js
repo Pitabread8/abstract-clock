@@ -15,6 +15,10 @@ function draw() {
     let min = minute();
     let sec = second();
 
+    if (sec == 0) {
+        console.log("minute:", min);
+    }
+
     background(255);
     fill(156, 211, 219);
 
